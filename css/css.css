@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    background-color: lightgray;
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+    top: 0px;
+	padding: 0px;
+}
+
+.slider {
+			width: 100%;
+		margin: auto;
+		overflow: hidden}
+		
+		.slider ul {
+		display: flex;
+		padding: 0;
+		width: 600%;
+			
+		animation: cambio 8s infinite alternate;
+		animation-timing-function: linear;
+			}
+			
+		.slider li {
+		list-style-type: none;
+		width: 100%;
+		float: left;}
+		
+		.slider img {width: 100%;
+		height: auto;}
+		
+		@keyframes cambio {
+			0% {margin-left: 0%;}
+			20% {margin-left: 0%;}
+			
+			30% {margin-left: -100%;}
+			50% {margin-left: -100%;}
+			
+			60% {margin-left: -200%;}
+			80% {margin-left: -200%;}
+			
+			90% {margin-left: -300%;}
+			100% {margin-left: -300%;}
+}
+
+
+		
+		
+.slider2 {
+			width: 100%;
+		margin: auto;
+		overflow: hidden}
+		
+		.slider2 ul {
+		display: flex;
+		padding: 0;
+		width: 400%;
+			
+		animation: cambio 8s infinite alternate;
+			animation-timing-function: linear;}
+			
+		.slider2 li {
+		list-style-type: none;
+		width: 100%;
+		float: left;}
+		
+		.slider img {width: 100%;
+		height: auto;}
+		
+		@keyframes cambio {
+			0% {margin-left: 0%;}
+			20% {margin-left: 0%;}
+			
+			30% {margin-left: -100%;}
+			50% {margin-left: -100%;}
+			
+			60% {margin-left: -200%;}
+			80% {margin-left: -200%;}
+			
+			90% {margin-left: -300%;}
+			100% {margin-left: -300%;}
+}
+
+#header{
+    background-color: black;
+    height: auto;
+	padding: 18px;
+}
+
+
+
+#section{
+    background-color: #e7e7e7;
+    width: 70%;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    margin: 0px;
+	padding: 15px;
+	padding-left: 20px;
+	
+}
+
+#aside{
+    background-color: #A4A4A4;
+    width: 29%;
+    height: auto;
+    position: absolute;
+    right: 10px;
+    top: auto;
+    display: inline-block;
+    margin: 0px;
+    padding: 20px,;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-top: 25px;
+	padding-bottom: 50px;
+
+}
+
+#footer{
+    background-color: darkgray;
+    bottom: 0px;
+    left: 0px;
+    height: 70px;
+    display: block;
+	padding: 25px;
+	font-display: block;
+}
+
+body {
+	background-color: #D8D8D8;
+}
+
+#intror {
+	font-size: 14pt;
+	line-height: 1;
+	color: #BB1C2E;
+}
+
+img {width: 100%;
+height: 512 auto;
+display: block;
+margin: auto}
+
+
+h1 {font-family: 'Bebas Neue', cursive;
+font-size: 400%; color: #BB1C2E}
+
+h2 {font-family: 'Bebas Neue', cursive;
+font-size: 200%}
+h3 {font-family: 'Bebas Neue', cursive;
+font-size: 200%}
+h4 {font-family: 'Bebas Neue', cursive;
+font-size: 200%}
+h5 {font-family: 'Bebas Neue', cursive;
+font-size: 200%}
+h6 {font-family: 'Bebas Neue', cursive;
+font-size: 200%}
+h7 {font-family: 'Bebas Neue', cursive;
+font-size: 200%}
+
+
+p {font-style: normal;
+font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", 'Helvetica', 'Arial', "sans-serif";
+line-height:1.6;
+}
+
+.instagram {
+	width: 5%;
+	height: 5%;
+	margin-left: 0;	
+}
+
+.facebook {
+	width: 4%;
+	height: 4%;
+	margin-left: 4px;	
+	border: solid;
+	border-radius: circle;
+}
+
+.batman {
+	width: 405px;
+	height: 600px;
+}
+
+.spencer {
+	width: 450px;
+	height: 600px;
+}
+
+.animales {
+	width: 417px;
+	height: 600px;
+}
+
+.norte {
+	width: 405px;
+	height: 600px;
+}
